@@ -1,5 +1,5 @@
 # Amazon Scraper API
-Developed by The Top Dev - kamaujosia.vercel.app
+Developed by The Top Dev - https://kamaujosia.vercel.app
 ## Introduction
 Amazon Data Scraper allows a top dev (you are one if you believe it): to get access to product, prices, sales, reviews, offers data from Amazon Website: 
     https://www.amazon.com/
@@ -27,6 +27,6 @@ I installed the following dependencies before starting the coding/building proce
         _npm install request-promise_
     f. ScraperAPI - We use it to scrape useful data from the amazon website. It allows to scrape html off any site and turn it into a JSON formatted piece of content.
         _https://www.scraperapi.com_
-        
+
 ## Conclusion
 After building the API application, I then went ahead and hosted it on https://www.cyclic.sh/
