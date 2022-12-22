@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 //dynamic (from user) Scraper API apikey that turns any HTML from any website into useful JSON
 //call it from every endpoint, add query param to every get request that allows users to enter their apikeys
 const genScrapUrl = (apiKey) => {
-  `http://api.scraperapi.com?api_key=${apiKey}&autoparse=true`;
+  return `http://api.scraperapi.com?api_key=${apiKey}&autoparse=true`;
 };
 
 app.use(express.json());
