@@ -19,13 +19,25 @@ app.get("/", (req, res) => {
   res.send("Welcome to Amazon Scraper API"); 
 }); 
 
-// GET Product Details
+// 1st EndPoint - GET Product Details 
 // essentially creating a new route, the colon makes the prodID dynamic
 app.get("/products/:productId", async (req, res) => {
   const { productId } = req.params;
   try {
     const response = await request(
       `${baseUrl}&url=https://www.amazon.com/dp/${productId}`
+    );
+    res.json(JSON.parse(response)); // making the response readable with parse func
+  } catch (error) {
+    res.json(error);
+  }
+});
+// 2nd EndPoint - GET Product Reviews 
+app.get("/products/:productId/reviews", async (req, res) => {
+  const { productId } = req.params;
+  try {
+    const response = await request(
+      `${baseUrl}&url=https://www.amazon.com/product-reviews/${productId}`
     );
     res.json(JSON.parse(response)); // making the response readable with parse func
   } catch (error) {
