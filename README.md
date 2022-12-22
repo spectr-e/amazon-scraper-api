@@ -15,17 +15,17 @@ This API will consist of 4 endpoints (actually, its 5 if you include the root ro
 ## Setup
 ### Dependencies
 I installed the following dependencies before starting the coding/building process:
-    a. Node JS
+1. Node JS
         _https://nodejs.org/en/download_
-    b. Express - A JS Framework used to create a backend application
+2. Express - A JS Framework used to create a backend application
         _npm install express_
-    c. Nodemon - Allows us to run the server and append code changes in realtime
+3. Nodemon - Allows us to run the server and append code changes in realtime
         _npm install nodemon_
-    d. Request &
+4. Request &
         _npm install request_
-    e. Request-Promise - Used for making API requests
+5. Request-Promise - Used for making API requests
         _npm install request-promise_
-    f. ScraperAPI - We use it to scrape useful data from the amazon website. It allows to scrape html off any site and turn it into a JSON formatted piece of content.
+6. ScraperAPI - We use it to scrape useful data from the amazon website. It allows to scrape html off any site and turn it into a JSON formatted piece of content.
         _https://www.scraperapi.com_
 
 ## Conclusion
