@@ -1,5 +1,6 @@
 # Amazon Scraper API
-Developed by The Top Dev - https://kamaujosia.vercel.app
+#### Developed by The Top Dev - https://kamaujosia.vercel.app
+Find it on RapidAPI at https://rapidapi.com/spectre-ofK_zkVdB/api/amazon-data-scraper119/
 ## Introduction
 Amazon Data Scraper allows a top dev (you are one if you believe it): to get access to product, prices, sales, reviews, offers data from Amazon Website: 
     https://www.amazon.com/
